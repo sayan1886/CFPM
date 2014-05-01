@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0F89A4191230A500E46814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89A3191230A500E46814 /* Foundation.framework */; };
+		2D0F89A6191230A500E46814 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89A5191230A500E46814 /* CoreGraphics.framework */; };
+		2D0F89A8191230A500E46814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89A7191230A500E46814 /* UIKit.framework */; };
+		2D0F89AE191230A500E46814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F89AC191230A500E46814 /* InfoPlist.strings */; };
+		2D0F89B0191230A500E46814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F89AF191230A500E46814 /* main.m */; };
+		2D0F89B4191230A500E46814 /* CFPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F89B3191230A500E46814 /* CFPMAppDelegate.m */; };
+		2D0F89B7191230A500E46814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F89B5191230A500E46814 /* Main.storyboard */; };
+		2D0F89BA191230A500E46814 /* CFPMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F89B9191230A500E46814 /* CFPMViewController.m */; };
+		2D0F89BC191230A500E46814 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F89BB191230A500E46814 /* Images.xcassets */; };
+		2D0F89C3191230A500E46814 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89C2191230A500E46814 /* XCTest.framework */; };
+		2D0F89C4191230A500E46814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89A3191230A500E46814 /* Foundation.framework */; };
+		2D0F89C5191230A500E46814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0F89A7191230A500E46814 /* UIKit.framework */; };
+		2D0F89CD191230A600E46814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0F89CB191230A600E46814 /* InfoPlist.strings */; };
+		2D0F89CF191230A600E46814 /* CFPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F89CE191230A600E46814 /* CFPMTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0F89C6191230A500E46814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0F8998191230A500E46814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0F899F191230A500E46814;
+			remoteInfo = CFPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0F89A0191230A500E46814 /* CFPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0F89A3191230A500E46814 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D0F89A5191230A500E46814 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D0F89A7191230A500E46814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D0F89AB191230A500E46814 /* CFPM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFPM-Info.plist"; sourceTree = "<group>"; };
+		2D0F89AD191230A500E46814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D0F89AF191230A500E46814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D0F89B1191230A500E46814 /* CFPM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CFPM-Prefix.pch"; sourceTree = "<group>"; };
+		2D0F89B2191230A500E46814 /* CFPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPMAppDelegate.h; sourceTree = "<group>"; };
+		2D0F89B3191230A500E46814 /* CFPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPMAppDelegate.m; sourceTree = "<group>"; };
+		2D0F89B6191230A500E46814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D0F89B8191230A500E46814 /* CFPMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFPMViewController.h; sourceTree = "<group>"; };
+		2D0F89B9191230A500E46814 /* CFPMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPMViewController.m; sourceTree = "<group>"; };
+		2D0F89BB191230A500E46814 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D0F89C1191230A500E46814 /* CFPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0F89C2191230A500E46814 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2D0F89CA191230A600E46814 /* CFPMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CFPMTests-Info.plist"; sourceTree = "<group>"; };
+		2D0F89CC191230A600E46814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D0F89CE191230A600E46814 /* CFPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFPMTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0F899D191230A500E46814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89A6191230A500E46814 /* CoreGraphics.framework in Frameworks */,
+				2D0F89A8191230A500E46814 /* UIKit.framework in Frameworks */,
+				2D0F89A4191230A500E46814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0F89BE191230A500E46814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89C3191230A500E46814 /* XCTest.framework in Frameworks */,
+				2D0F89C5191230A500E46814 /* UIKit.framework in Frameworks */,
+				2D0F89C4191230A500E46814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0F8997191230A500E46814 = {
+			isa = PBXGroup;
+			children = (
+				2D0F89A9191230A500E46814 /* CFPM */,
+				2D0F89C8191230A500E46814 /* CFPMTests */,
+				2D0F89A2191230A500E46814 /* Frameworks */,
+				2D0F89A1191230A500E46814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0F89A1191230A500E46814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89A0191230A500E46814 /* CFPM.app */,
+				2D0F89C1191230A500E46814 /* CFPMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0F89A2191230A500E46814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89A3191230A500E46814 /* Foundation.framework */,
+				2D0F89A5191230A500E46814 /* CoreGraphics.framework */,
+				2D0F89A7191230A500E46814 /* UIKit.framework */,
+				2D0F89C2191230A500E46814 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D0F89A9191230A500E46814 /* CFPM */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89B2191230A500E46814 /* CFPMAppDelegate.h */,
+				2D0F89B3191230A500E46814 /* CFPMAppDelegate.m */,
+				2D0F89B5191230A500E46814 /* Main.storyboard */,
+				2D0F89B8191230A500E46814 /* CFPMViewController.h */,
+				2D0F89B9191230A500E46814 /* CFPMViewController.m */,
+				2D0F89BB191230A500E46814 /* Images.xcassets */,
+				2D0F89AA191230A500E46814 /* Supporting Files */,
+			);
+			path = CFPM;
+			sourceTree = "<group>";
+		};
+		2D0F89AA191230A500E46814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89AB191230A500E46814 /* CFPM-Info.plist */,
+				2D0F89AC191230A500E46814 /* InfoPlist.strings */,
+				2D0F89AF191230A500E46814 /* main.m */,
+				2D0F89B1191230A500E46814 /* CFPM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D0F89C8191230A500E46814 /* CFPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89CE191230A600E46814 /* CFPMTests.m */,
+				2D0F89C9191230A600E46814 /* Supporting Files */,
+			);
+			path = CFPMTests;
+			sourceTree = "<group>";
+		};
+		2D0F89C9191230A600E46814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F89CA191230A600E46814 /* CFPMTests-Info.plist */,
+				2D0F89CB191230A600E46814 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0F899F191230A500E46814 /* CFPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0F89D2191230A600E46814 /* Build configuration list for PBXNativeTarget "CFPM" */;
+			buildPhases = (
+				2D0F899C191230A500E46814 /* Sources */,
+				2D0F899D191230A500E46814 /* Frameworks */,
+				2D0F899E191230A500E46814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFPM;
+			productName = CFPM;
+			productReference = 2D0F89A0191230A500E46814 /* CFPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0F89C0191230A500E46814 /* CFPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0F89D5191230A600E46814 /* Build configuration list for PBXNativeTarget "CFPMTests" */;
+			buildPhases = (
+				2D0F89BD191230A500E46814 /* Sources */,
+				2D0F89BE191230A500E46814 /* Frameworks */,
+				2D0F89BF191230A500E46814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0F89C7191230A500E46814 /* PBXTargetDependency */,
+			);
+			name = CFPMTests;
+			productName = CFPMTests;
+			productReference = 2D0F89C1191230A500E46814 /* CFPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0F8998191230A500E46814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFPM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = h.sayy;
+				TargetAttributes = {
+					2D0F89C0191230A500E46814 = {
+						TestTargetID = 2D0F899F191230A500E46814;
+					};
+				};
+			};
+			buildConfigurationList = 2D0F899B191230A500E46814 /* Build configuration list for PBXProject "CFPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0F8997191230A500E46814;
+			productRefGroup = 2D0F89A1191230A500E46814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0F899F191230A500E46814 /* CFPM */,
+				2D0F89C0191230A500E46814 /* CFPMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0F899E191230A500E46814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89BC191230A500E46814 /* Images.xcassets in Resources */,
+				2D0F89AE191230A500E46814 /* InfoPlist.strings in Resources */,
+				2D0F89B7191230A500E46814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0F89BF191230A500E46814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89CD191230A600E46814 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0F899C191230A500E46814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89B4191230A500E46814 /* CFPMAppDelegate.m in Sources */,
+				2D0F89B0191230A500E46814 /* main.m in Sources */,
+				2D0F89BA191230A500E46814 /* CFPMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0F89BD191230A500E46814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0F89CF191230A600E46814 /* CFPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0F89C7191230A500E46814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0F899F191230A500E46814 /* CFPM */;
+			targetProxy = 2D0F89C6191230A500E46814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D0F89AC191230A500E46814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0F89AD191230A500E46814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D0F89B5191230A500E46814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0F89B6191230A500E46814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D0F89CB191230A600E46814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D0F89CC191230A600E46814 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D0F89D0191230A600E46814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2D0F89D1191230A600E46814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0F89D3191230A600E46814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFPM/CFPM-Prefix.pch";
+				INFOPLIST_FILE = "CFPM/CFPM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D0F89D4191230A600E46814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFPM/CFPM-Prefix.pch";
+				INFOPLIST_FILE = "CFPM/CFPM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D0F89D6191230A600E46814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CFPM.app/CFPM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFPM/CFPM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CFPMTests/CFPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2D0F89D7191230A600E46814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CFPM.app/CFPM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CFPM/CFPM-Prefix.pch";
+				INFOPLIST_FILE = "CFPMTests/CFPMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0F899B191230A500E46814 /* Build configuration list for PBXProject "CFPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0F89D0191230A600E46814 /* Debug */,
+				2D0F89D1191230A600E46814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0F89D2191230A600E46814 /* Build configuration list for PBXNativeTarget "CFPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0F89D3191230A600E46814 /* Debug */,
+				2D0F89D4191230A600E46814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D0F89D5191230A600E46814 /* Build configuration list for PBXNativeTarget "CFPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0F89D6191230A600E46814 /* Debug */,
+				2D0F89D7191230A600E46814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0F8998191230A500E46814 /* Project object */;
+}
